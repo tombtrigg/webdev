@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma;
+}
+
+header{
+    color: white;
+    background-color: rgba(255, 70, 70, 0.863);
+    padding: 20px 0px;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+header h1{
+    border: 7px solid white;
+    border-radius: 35px;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.banner img{
+    max-width: 100%;
+    position: relative;
+}
+
+h2{
+    background-color: #FEB614;
+    color: white;
+    font-size: 5rem;
+    z-index: 0;
+    position: absolute;
+    top: 15%;
+    padding: 20px;
+}
+
+nav{
+    background-color: whitesmoke;
+    padding: 20px;
+    position: sticky;
+    z-index: 1;
+    max-width: 100%;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0px 6em; 
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.main-body{
+    line-height: 2;
+    max-width: 100%;
+}
+
+.main-body h3{
+    color: red;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.main-body .images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-body .images img{
+    padding: 20px;
+}
+
+.join-button{
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 2;
+    padding: 100px;
+}
+
+.join-button h3{
+    font-size: 2.5rem;
+}
+
+.join-button p{
+    padding: 20px;
+}
+
+.join-button form input{
+    font-size: 2em;
+    padding: 10px 20spx;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 35px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color:rgba(255, 70, 70, 0.863);
+    padding: 20px;
+}

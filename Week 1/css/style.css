@@ -1,0 +1,9 @@
+/* This is how to comment in CSS */
+
+/* Universal selector = appliex to everything */
+
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}

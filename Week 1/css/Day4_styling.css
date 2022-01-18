@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    background-image: url("/Week 1/images/banner.jpg");
+    height: 60vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+
+nav ul{
+    background-color: black;
+    position: sticky;
+    z-index: 1;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0em 3em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.container1{
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-wrap: row wrap;
+}
+
+.box-odd img{
+    padding: 50px;
+    max-width: 50vw;
+}
+
+.box-even{
+    padding: 50px;
+}
+
+.container2{
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-wrap: row wrap;
+}
+
+.container3{
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-wrap: row wrap;
+}
+
+.testimonials{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+.testimonials h3{
+    text-align: center;
+    padding: 50px;
+}
+
+.testimonials p{
+    padding: 50px;
+}
