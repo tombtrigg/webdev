@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/webdev/Week3/javascript_practice_styling.css">
     <title>Document</title>
 </head>
 <body>
+    <script>
+        var name = "tom";
+        var firstLetter = name.slice(0,1);
+        var restOfName = name.slice(1,3);
+ 
+        name = firstLetter.toUpperCase() + restOfName;
+
+        function deleteText(a){
+            a = "";
+        };
+
+        document.getElementById("btn").innerHTML.onclick=deleteText(document.getElementById("p").innerHTML);
+     </script>
     <h1>
         Something something Javascript
     </h1>
-    <p>
+    <p id="p">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tenetur corporis dicta ducimus adipisci nemo, cum itaque eligendi exercitationem! Possimus, sed! Sapiente quam beatae dolore hic cumque a eum dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet tempora unde, molestiae animi totam maxime odit sequi hic sit ut, numquam quam eligendi. Sint aut id ad tempora beatae harum.
     </p>
-    <script>
-        var num1=5;
-
-        console.log("Hello World!");
-        console.log("Tom");
-        console.log(num1++);
-        console.log(num1);
-    </script>
+    <div id="btn">
+        Show/Hide
+    </div>
 </body>
 </html>

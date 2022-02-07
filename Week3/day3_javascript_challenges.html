@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // BMI = weight/height^2
+        // Create a function that takes weights and heights as inputs and gives the calculated BMI as an output.
+        // Output should be rounded to nearest whole number.
+
+        function bmiCalculator(weight,height){
+            var bmi = Math.round(weight/(height ** 2));
+            if (bmi < 18.5){
+                return("Your BMI is " + bmi + ", so you are underweight.");
+            } else if (bmi > 18.5 && bmi < 24.9){
+                return("Your BMI is " + bmi + ", so you have a normal weight.");
+            } else {
+                return("Your BMI is " + bmi + ", so you are overweight.");
+            }
+        }
+        function randomName(a){
+            var i = Math.floor(Math.random() * a.length);
+            var k = a[i];
+            return k;
+        }
+    </script>
+</body>
+</html>
