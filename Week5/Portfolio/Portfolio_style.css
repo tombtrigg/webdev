@@ -1,0 +1,72 @@
+/* NAVIGATION ITEMS */
+
+nav{
+    background:black;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: "Frank Ruhl Libre";
+    text-decoration: none;
+    font-weight: 550;
+    color: white; 
+}
+#nav5{
+    font-family: "Mr Dafoe";
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+#nav1:hover{
+    color: #FCBA04;
+}
+#nav2:hover{
+    color: #DA4167;
+}
+#nav3:hover{
+    color: #17C3B2;
+}
+#nav4:hover{
+    color: #832161;
+}
+
+/* PAGE STYLING */
+
+body{
+    height:100%; 
+    background: 
+    linear-gradient(90deg, #FCBA04 50%, white 50%);
+}
+main{
+    margin-top:10vh;
+}
+#home-heading{
+    margin-top:5%;
+    font-family: "Mr Dafoe";
+    font-size: 6.25rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 2%;
+    position:absolute;
+}
+#main-image img{
+    margin-left: 60vw;
+    border-radius: 25px;
+    border: 10px solid #FCBA04;
+    position:absolute;
+    margin-top: 5vh;
+}
+#home-body{
+    margin-top: 35vh;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "Frank Ruhl Libre";
+    color: rgb(0, 0, 0);
+    padding: 0 5% 0 5%;
+    position:absolute;
+}
+#home-body ul{
+    list-style:none;
+}
+#home-body ul li{
+    padding-top: 3%;
+}

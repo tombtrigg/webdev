@@ -23,7 +23,7 @@ header .brand-name{
     top: 23.2%;
     bottom: 0%;
 
-    font-family: Montserrate Alternates;
+    font-family: 'Montserrat Alternates';
     font-style: italic;
     font-weight: 275;
     font-size: 48px;
@@ -55,7 +55,7 @@ header .join{
     top: 29.6%;
     bottom: 35.2%;
 
-    font-family: Montserrat Alternates;
+    font-family: Montserrat Alternate;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;

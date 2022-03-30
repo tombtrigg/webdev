@@ -1,0 +1,49 @@
+button{
+    background-color: #FCBA04;
+    border:none;
+    color: white;
+    position:fixed;
+    top:20px;
+    left:20px;
+    padding:1rem;
+    transition:transform 0.3s ease-in-out;
+    z-index:1;
+}
+button span{
+    width: 1rem;
+    height: 1rem;
+}
+button.active{
+    transform:translateX(-100%);
+}
+#navigation{
+    background-color:#FCBA04;
+    position:fixed;
+    top:0;
+    left:0;
+    height:100vh;
+    padding:0;
+    transform:translateX(0);
+    transition:transform 0.3s ease-in-out;
+}
+#navigation.active{
+    transform:translateX(100%);
+}
+#navigation ul{
+    padding:1rem;
+    list-style-type: none;
+    margin:0;
+    font-size: 2rem;
+}
+#navigation ul li{
+    padding:1rem;
+}
+#navigation ul li a{
+    text-decoration:none;
+    font-family: "Frank Ruhl Libre";
+    font-size: 4rem;
+    color:white;
+}
+#navigation ul li a:hover{
+    color: #DA4167;
+}

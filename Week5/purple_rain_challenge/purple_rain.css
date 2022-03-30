@@ -1,0 +1,13 @@
+.heart{
+    color:purple;
+    font-size:60px;
+    position:fixed;
+    top: -5vh;
+    transform: translateY(0);
+    animation: fall 3s linear;
+}
+@keyframes fall{
+    to{
+        transform:translateY(105vh);
+    }
+}
