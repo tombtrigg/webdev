@@ -69,19 +69,12 @@ main{
 #contact-body ul li{
     padding: 2% 0 2% 0;
 }
-#contact-body ul li a{
-    text-decoration:none;
-    color: white;
+.button{
+    color:white;
+    background-color:#FCBA04;
+    border-radius: 35px;
+    padding: 2px 20px 2px 20px;
 }
-#email:hover{
-    color:#FCBA04;
-}
-#linkedin:hover{
-    color:#17C3B2;
-}
-#twitter:hover{
+.button:hover{
     color:#DA4167;
-}
-#github:hover{
-    color:black;
 }
